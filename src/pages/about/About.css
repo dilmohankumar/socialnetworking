@@ -1,0 +1,84 @@
+/* Basic styles for the about page */
+.about {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-header {
+    background-color: #0033cc; /* Blue background */
+    color: #ffcc00; /* Yellow text */
+    padding: 50px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about-header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.5em;
+  }
+  
+  .about-header p {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .about-section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section h2 {
+    margin: 0 0 20px 0;
+    font-size: 2em;
+    color: #0033cc; /* Blue text */
+  }
+  
+  .about-section p {
+    margin: 0;
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  .about-team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-member h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    color: #0033cc; /* Blue text */
+  }
+  
+  .team-member p {
+    margin: 0;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  /* Responsive styles for the about page */
+  @media (max-width: 768px) {
+    .about-team {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .team-member {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  

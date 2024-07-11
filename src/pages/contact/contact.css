@@ -1,0 +1,108 @@
+/* Basic styles for the contact page */
+.contact {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-header {
+    background-color: #0033cc; /* Blue background */
+    color: #ffcc00; /* Yellow text */
+    padding: 50px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.5em;
+  }
+  
+  .contact-header p {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .contact-section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-section h2 {
+    margin: 0 0 20px 0;
+    font-size: 2em;
+    color: #0033cc; /* Blue text */
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #0033cc; /* Blue background */
+    color: #ffcc00; /* Yellow text */
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #002299; /* Darker blue on hover */
+  }
+  
+  .contact-details {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+  .contact-details p {
+    margin: 5px 0;
+  }
+  
+  .contact-map {
+    margin-top: 20px;
+  }
+  
+  .contact-map iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    border: 0;
+  }
+  
+  /* Responsive styles for the contact page */
+  @media (max-width: 768px) {
+    .contact-form {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .contact-map iframe {
+      height: 300px;
+    }
+  }
+  
